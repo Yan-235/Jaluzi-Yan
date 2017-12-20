@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Zaluzi-grodno</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid third-section-img-background row">
+	<div class="container-fluid header-container-custom">
+		<div class="row header-row">
+			<div class="col-xs-6">
+				<a href="#">
+					<img src="img/logo1.gif" class="logo" alt="">
+				</a>
+			</div>
+			<div class="col-xs-6 vertical-align">
+				<div class="header-phone">
+					<a class="phone" href="tel:+375333931970">8 (033) 393-19-70 мтс,</a>
+					<a class="phone" href="tel:+375299309399">8 (029) 930-93-99 Velcom</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-xs-8 row">
+				<ul class="navbar-custom">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Жалюзи и рольшторы Гродно</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+
+			</div>
+			<div class="col-xs-4 ">
+				<a href="#">
+						<button class="btn media-btn-Facebook" data-title="Facebook">
+							<img class="imgCenter" src="img/099085-glossy-black-3d-button-icon-social-media-logos-facebook-logo-square.png" weidth="16px" height="16px" alt="">
+						</button>
+					</a>
+					<a href="#">
+						<button class="btn media-btn-Twitter" data-title="Twitter">
+							<img class="imgCenter" src="img/B&W_Twitter_icon.png" weidth="16px" height="16px" alt="">
+						</button>
+					</a>
+					<a href="#">
+						<button class="btn media-btn-Google" data-title="Google+">
+							<img class="imgCenter" src="img/google-plus-884379_960_720.png" weidth="16px" height="16px" alt="">
+						</button>
+					</a>
+
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid position-main-header row">
+		<div class="col-xs-2"></div>
+		<div class="col-xs-8">
+			<h1 class="style-headline">ЖАЛЮЗИ и РОЛЬШТОРЫ в Гродно</h1>
+			<div class="line-custom decoration-line"></div>
+			<h3 class="style-sub-headline">Все что Вам нужно сделать, чтобы преобразить комнату — позвонить, или оставить заявку на звонок.</h3>
+		</div>
+	</div>
+</div>
+<div class="container-fluid row fourth-section-background">
+	<div class="col-xs12">
+
+	</div>
+</div>
+</body>
+</html>
