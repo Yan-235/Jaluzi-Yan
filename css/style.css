@@ -48,14 +48,10 @@ body {
 	padding-left: 0 !important;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-	color: red;
+.not-clickable-item {
+    cursor: default;
 }
 
-.navbar-nav > li > a {
-	color: red;
-}
 
 .dropdown {
 	position: relative;
@@ -69,7 +65,37 @@ body {
 
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0,0,0,0.5);
+}
+@media (max-width: 767px) {
+	.adaptation-size-of-dropdown-menu:hover{
+		padding-bottom: 160px;
+	}
+
+	.margin-for-adaptation-size-of-dropdown-menu{
+		margin-top: -160px;
+	}
+
+	.adaptation-fourth-section-h3textstyle{
+		font-size: 24px!important;
+	}
+
+	.adaptation-fourth-section-ptextstyle{
+		font-size: 22px!important;
+	}
+}
+
+
+.navbar-inverse{
+	margin-bottom: 0;
+}
+
+.navbar-nav{
+	margin-left: 20vw;
+}
+
+.navbar-form{
+	margin-right: 3vw;
 }
 
 .navbar-inverse .navbar-nav > li> a{
@@ -106,7 +132,14 @@ body {
 	width: 100%;
 }
 
+.media-btn-image-background-Facebook{
+	background: url("../img/twitter.png");
+	width: 16px;
+	height: 16px;
+}
+
 .media-btn-Facebook {
+
 	position: absolute;
 	z-index: 2;
 	display: inline-block;
@@ -115,11 +148,10 @@ body {
 	height: 24px;
 	cursor: pointer;
 	border-radius: 50% !important;
-	background-color: #e54c0b;
 }
 
-.media-btn-Facebook:hover:after {
-	content: attr(data-title);
+.media-btn-Facebook:hover:after{
+	content: "Facebook";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 1;
@@ -141,6 +173,7 @@ body {
 	display: inline-block;
 	margin-left: 28px;
 	margin-top: -10px;
+	background-image: url("../img/twitter.png");
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
@@ -149,7 +182,7 @@ body {
 }
 
 .media-btn-Twitter:hover:after {
-	content: attr(data-title);
+	content: "Twitter";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 1;
@@ -180,7 +213,7 @@ body {
 }
 
 .media-btn-Google:hover:after {
-	content: attr(data-title);
+	content: "Google+";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 1;
@@ -274,13 +307,11 @@ body {
 }
 
 .fourth-section-h3textstyle {
-
 	color: black;
 	padding-bottom: 2.2vh;
 	text-decoration: underline;
 	text-decoration-color: #e54c0b;
 	font-size: 2vw;
-	/*font-size: 25px;*/
 	text-align: center;
 }
 
