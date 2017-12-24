@@ -132,14 +132,9 @@ body {
 	width: 100%;
 }
 
-.media-btn-image-background-Facebook{
-	background: url("../img/twitter.png");
-	width: 16px;
-	height: 16px;
-}
-
 .media-btn-Facebook {
-
+	background: url("../img/facebook-orange.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	display: inline-block;
@@ -163,17 +158,20 @@ body {
 }
 
 .media-btn-Facebook:hover {
-	background-color: inherit;
+	/*background-color: inherit;*/
+	background: url("../img/facebook-black.png");
+	background-size: cover;
 	border: 1px solid white;
 }
 
 .media-btn-Twitter {
+	background: url("../img/twitter-orange.jpg");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	display: inline-block;
 	margin-left: 28px;
 	margin-top: -10px;
-	background-image: url("../img/twitter.png");
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
@@ -194,11 +192,14 @@ body {
 }
 
 .media-btn-Twitter:hover {
-	background-color: inherit;
+	background: url("../img/twitter-black.jpg");
+	background-size: cover;
 	border: 1px solid white;
 }
 
 .media-btn-Google {
+	background: url("../img/google-orange.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	display: inline-block;
@@ -225,7 +226,8 @@ body {
 }
 
 .media-btn-Google:hover {
-	background-color: inherit;
+	background: url("../img/google-black.png");
+	background-size: cover;
 	border: 1px solid white;
 }
 
@@ -508,9 +510,7 @@ body {
 	text-decoration: none;
 	line-height: 1em;
 	width: auto;
-
 	box-sizing: border-box;
-
 	font-family: Verdana;
 	padding: 1em 2em;
 	background: #e85c00;
@@ -527,6 +527,7 @@ body {
 	color: black;
 	background-size: 16px;
 	background: #31b0d5;
+	border-color: #31b0d5;
 }
 
 .eighth-section-h2textstyle {
