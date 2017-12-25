@@ -288,7 +288,7 @@ overflow-x: hidden !important;
 	margin: 0;
 	background: black url('../img/white-background.png') center center fixed;
 	background-size: cover;
-	height: auto;
+
 	padding-bottom: 50px;
 }
 
@@ -576,6 +576,7 @@ overflow-x: hidden !important;
 
 .buy-roller-blinds-p3textstyle {
 	padding-top: 5px;
+	padding-bottom: 100%;
 	margin: 0;
 	color: #e54c0b;
 	font-size: 22px;
