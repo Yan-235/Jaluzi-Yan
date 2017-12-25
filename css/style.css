@@ -79,7 +79,6 @@ overflow-x: hidden !important;
 	.margin-for-adaptation-size-of-dropdown-menu{
 		margin-top: -160px;
 	}
-
 	.adaptation-fourth-section-h3textstyle{
 		font-size: 24px!important;
 	}
@@ -89,6 +88,17 @@ overflow-x: hidden !important;
 	}
 }
 
+.btn.collapsed:hover{
+	background: green;
+}
+
+.btn.collapsed:visited:hover{
+	background: red;
+}
+
+.btn.collapsed:active{
+	background: orange;
+}
 
 .navbar-inverse{
 	margin-bottom: 0;
@@ -315,7 +325,7 @@ overflow-x: hidden !important;
 	padding-bottom: 2.2vh;
 	text-decoration: underline;
 	text-decoration-color: #e54c0b;
-	font-size: 2vw;
+	font-size: 1.6vw;
 	text-align: center;
 }
 
@@ -330,7 +340,7 @@ overflow-x: hidden !important;
 .fourth-section-ptextstyle {
 	color: #e54c0b;
 	text-align: center;
-	font-size: 1.8vw;
+	font-size: 1.4vw;
 	text-decoration: underline;
 	text-decoration-color: #e54c0b;
 }
