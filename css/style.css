@@ -88,18 +88,6 @@ overflow-x: hidden !important;
 	}
 }
 
-.btn.collapsed:hover{
-	background: green;
-}
-
-.btn.collapsed:visited:hover{
-	background: red;
-}
-
-.btn.collapsed:active{
-	background: orange;
-}
-
 .navbar-inverse{
 	margin-bottom: 0;
 }
