@@ -3,6 +3,9 @@ body {
 
 }
 
+.wrapperrr {
+overflow-x: hidden !important;
+}
 .logo {
 	height: 96px;
 	width: 48px;
@@ -67,6 +70,7 @@ body {
 	display: block;
 	background: rgba(0,0,0,0.5);
 }
+
 @media (max-width: 767px) {
 	.adaptation-size-of-dropdown-menu:hover{
 		padding-bottom: 160px;
@@ -85,18 +89,16 @@ body {
 	}
 }
 
-
+/*
 .navbar-inverse{
 	margin-bottom: 0;
 }
 
 .navbar-nav{
-	margin-left: 20vw;
+	margin-left: 25vw;
 }
+*/
 
-.navbar-form{
-	margin-right: 3vw;
-}
 
 .navbar-inverse .navbar-nav > li> a{
 	color:white;
