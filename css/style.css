@@ -735,6 +735,8 @@ overflow-x: hidden !important;
 }
 
 .contacts-media-btn-Facebook {
+	background: url("../img/facebook-black.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	margin-left: 40px;
@@ -747,7 +749,7 @@ overflow-x: hidden !important;
 }
 
 .contacts-media-btn-Facebook:hover:after {
-	content: attr(data-title);
+	content: "Facebook";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 3;
@@ -760,7 +762,9 @@ overflow-x: hidden !important;
 
 .contacts-media-btn-Facebook:hover {
 	background-color: #ec971f;
-	border: 1px solid #333;
+	background: url("../img/facebook-orange.png");
+	background-size: cover;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Twitter {
