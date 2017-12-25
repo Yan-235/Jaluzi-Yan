@@ -322,19 +322,18 @@ overflow-x: hidden !important;
 
 .fourth-section-h3textstyle {
 	color: black;
-	padding-bottom: 2.2vh;
 	text-decoration: underline;
 	text-decoration-color: #e54c0b;
 	font-size: 1.6vw;
 	text-align: center;
 }
 
-.fourth-section-h3textstyle:hover {
+.fourth-section-h3textstyle2{
+	color: black;
+	text-decoration: underline;
 	text-decoration-color: white;
-}
-
-.fourth-section-h3textstyle:hover ~ .fourth-section-ptextstyle {
-	text-decoration-color: white;
+	font-size: 1.6vw;
+	text-align: center;
 }
 
 .fourth-section-ptextstyle {
@@ -345,7 +344,11 @@ overflow-x: hidden !important;
 	text-decoration-color: #e54c0b;
 }
 
-.fourth-section-ptextstyle:hover {
+.fourth-section-ptextstyle2 {
+	color: #e54c0b;
+	text-align: center;
+	font-size: 1.4vw;
+	text-decoration: underline;
 	text-decoration-color: white;
 }
 

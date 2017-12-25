@@ -98,33 +98,36 @@
 				<div class="col-xs-12 col-sm-3 col-lg-3">
 					<a href="#">
 						<img class="fourth-section-imgs-position" src="img/1-img-4-section.jpg" title="Шторы ДЕНЬ-НОЧЬ 'Зебра'">
-						<h3 class="fourth-section-h3textstyle fourth-section-h3textstyle-for-mobile adaptation-fourth-section-h3textstyle">Шторы<br>ДЕНЬ-НОЧЬ "Зебра"</h3>
+						<h3 class="fourth-section-h3textstyle fourth-section-h3textstyle-for-mobile adaptation-fourth-section-h3textstyle" onMouseOver="h3textstyle_over(this);OnMouseOver=ptextstyle_over(getElementById('p1'))" onMouseOut="h3textstyle_out(this);onMouseOut=ptextstyle_out(getElementById('p1'))" id="h3-1">Шторы<br>ДЕНЬ-НОЧЬ "Зебра"</h3>
 						<br>
-						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle">от 44 р за/шт</p>
+						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle" onMouseOver="ptextstyle_over(this);OnMouseOver=h3textstyle_over(getElementById('h3-1'))" onMouseOut="ptextstyle_out(this);onMouseOut=h3textstyle_out(getElementById('h3-1'))" id="p1">от 44 р за/шт</p>
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-3 col-lg-3">
+					<div class="res"></div>
 					<a href="buy_roller_blinds.html">
+
+
 						<img class="fourth-section-imgs-position" src="img/2-img-4-section.jpg" title="РОЛЬШТОРЫ">
-						<h3 class="fourth-section-h3textstyle adaptation-fourth-section-h3textstyle">РОЛЬШТОРЫ<br><br></h3>
+						<h3 class="fourth-section-h3textstyle adaptation-fourth-section-h3textstyle" onMouseOver="h3textstyle_over(this);OnMouseOver=ptextstyle_over(getElementById('p2'))" onMouseOut="h3textstyle_out(this);onMouseOut=ptextstyle_out(getElementById('p2'))" id="h3-2">РОЛЬШТОРЫ<br><br></h3>
 						<br>
-						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle">от 28 р за/шт</p>
+						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle" onMouseOver="ptextstyle_over(this);OnMouseOver=h3textstyle_over(getElementById('h3-2'))" onMouseOut="ptextstyle_out(this);onMouseOut=h3textstyle_out(getElementById('h3-2'))" id="p2">от 28 р за/шт</p>
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-3 col-lg-3">
 					<a href="#">
 						<img class="fourth-section-imgs-position" src="img/3-img-4-section.jpg" title="ГОРИЗОНТАЛЬНЫЕ ЖАЛЮЗИ">
-						<h3 class="fourth-section-h3textstyle adaptation-fourth-section-h3textstyle">ГОРИЗОНТАЛЬНЫЕ ЖАЛЮЗИ</h3>
+						<h3 class="fourth-section-h3textstyle adaptation-fourth-section-h3textstyle" onMouseOver="h3textstyle_over(this);OnMouseOver=ptextstyle_over(getElementById('p3'))" onMouseOut="h3textstyle_out(this);onMouseOut=ptextstyle_out(getElementById('p3'))" id="h3-3">ГОРИЗОНТАЛЬНЫЕ ЖАЛЮЗИ</h3>
 						<br>
-						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle">от 19 р за/шт</p>
+						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle" onMouseOver="ptextstyle_over(this);OnMouseOver=h3textstyle_over(getElementById('h3-3'))" onMouseOut="ptextstyle_out(this);onMouseOut=h3textstyle_out(getElementById('h3-3'))" id="p3">от 19 р за/шт</p>
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-3 col-lg-3">
 					<a href="#">
 						<img class="fourth-section-imgs-position" src="img/4-img-4-section.jpg" title="Шторы ПЛИССЕ">
-						<h3 class="fourth-section-h3textstyle adaptation-fourth-section-h3textstyle">Шторы<br> "ПЛИССЕ"</h3>
+						<h3 class="fourth-section-h3textstyle adaptation-fourth-section-h3textstyle" onMouseOver="h3textstyle_over(this);OnMouseOver=ptextstyle_over(getElementById('p4'))" onMouseOut="h3textstyle_out(this);onMouseOut=ptextstyle_out(getElementById('p4'))" id="h3-4">Шторы<br> "ПЛИССЕ"</h3>
 						<br>
-						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle">от 44 р за/шт</p>
+						<p class="fourth-section-ptextstyle adaptation-fourth-section-ptextstyle" onMouseOver="ptextstyle_over(this);OnMouseOver=h3textstyle_over(getElementById('h3-4'))" onMouseOut="ptextstyle_out(this);onMouseOut=h3textstyle_out(getElementById('h3-4'))" id="p4">от 44 р за/шт</p>
 					</a>
 				</div>
 			</div>
@@ -349,5 +352,31 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	function h3textstyle_over(obj) {
+		obj.className = "fourth-section-h3textstyle2";
+		<!-- Это функция отвечает за то чтобы при наведении мышкой менялся стиль-->
+	}
+</script>
+<script>
+	function h3textstyle_out(obj) {
+		obj.className = "fourth-section-h3textstyle";
+		<!-- Это функция отвечает за то что если вашка мышка не наведена на ячейку то стиль останется прежним-->
+	}
+</script>
+<script>
+	function ptextstyle_over(obj) {
+		obj.className = "fourth-section-ptextstyle2";
+		<!-- Это функция отвечает за то чтобы при наведении мышкой менялся стиль-->
+	}
+</script>
+<script>
+	function ptextstyle_out(obj) {
+		obj.className = "fourth-section-ptextstyle";
+		<!-- Это функция отвечает за то что если вашка мышка не наведена на ячейку то стиль останется прежним-->
+	}
+</script>
+
 </body>
 </html>
