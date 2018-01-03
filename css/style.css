@@ -129,7 +129,7 @@ body {
 	display: block;
 	content: "";
 	height: 2px;
-	width: 0%;
+	width: 0;
 	background-color: #e54c0b;
 	transition: width .3s ease-in-out;
 }
@@ -505,12 +505,7 @@ body {
 
 .nav-tabs > li > a:hover {
 	color: black;
-	background-color: rgba(255, 255, 255, 0.6);
-}
-
-.nav-tabs > li > a.current{
-	color: black;
-	background-color: #ec971f;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .carousel-paddint-top {
@@ -656,7 +651,7 @@ body {
 	display: block;
 	height: 2px;
 	content: "";
-	width: 0%;
+	width: 0;
 	background-color: #e54c0b;
 	transition: width .3s ease-in-out;
 }
