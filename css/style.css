@@ -1,11 +1,12 @@
 body {
 	overflow-x: hidden;
-	height:100%;
+	height: 100%;
 }
 
 .wrapperrr {
-overflow-x: hidden !important;
+	overflow-x: hidden !important;
 }
+
 .logo {
 	height: 96px;
 	width: 48px;
@@ -24,7 +25,6 @@ overflow-x: hidden !important;
 	border-color: black;
 	border-radius: 0;
 }
-
 
 .phone {
 	font: 600 24px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
@@ -52,9 +52,8 @@ overflow-x: hidden !important;
 }
 
 .not-clickable-item {
-    cursor: default;
+	cursor: default;
 }
-
 
 .dropdown {
 	position: relative;
@@ -68,52 +67,52 @@ overflow-x: hidden !important;
 
 .dropdown:hover .dropdown-menu {
 	display: block;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767px) {
-	.adaptation-size-of-dropdown-menu:hover{
+	.adaptation-size-of-dropdown-menu:hover {
 		padding-bottom: 160px;
 	}
 
-	.margin-for-adaptation-size-of-dropdown-menu{
+	.margin-for-adaptation-size-of-dropdown-menu {
 		margin-top: -160px;
 	}
 
-	.adaptation-fourth-section-h3textstyle{
-		font-size: 24px!important;
+	.adaptation-fourth-section-h3textstyle {
+		font-size: 24px !important;
 		text-decoration-color: #ec971f;
 	}
 
-	.adaptation-fourth-section-ptextstyle{
-		font-size: 22px!important;
+	.adaptation-fourth-section-ptextstyle {
+		font-size: 22px !important;
 		text-decoration-color: #ec971f;
 	}
 
-	.adaptation-fourth-section-h3textstyle:active{
-		font-size: 24px!important;
+	.adaptation-fourth-section-h3textstyle:active {
+		font-size: 24px !important;
 		text-decoration-color: #ec971f;
 	}
 
-	.adaptation-fourth-section-ptextstyle:active{
-		font-size: 22px!important;
+	.adaptation-fourth-section-ptextstyle:active {
+		font-size: 22px !important;
 		text-decoration-color: #ec971f;
 	}
 }
 
-.navbar-inverse{
+.navbar-inverse {
 	margin-bottom: 0;
 }
 
-.navbar-inverse .navbar-nav > li> a{
-	color:white;
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
 }
 
-.dropdown .dropdown-menu > li > a{
-	color:white;
+.dropdown .dropdown-menu > li > a {
+	color: white;
 }
 
-.dropdown-menu > li > a:hover{
+.dropdown-menu > li > a:hover {
 	background: rgba(0, 0, 0, 0.5);
 }
 
@@ -152,7 +151,7 @@ overflow-x: hidden !important;
 	border-radius: 50% !important;
 }
 
-.media-btn-Facebook:hover:after{
+.media-btn-Facebook:hover:after {
 	content: "Facebook";
 	position: absolute;
 	margin-top: 12px;
@@ -323,7 +322,7 @@ overflow-x: hidden !important;
 	text-align: center;
 }
 
-.fourth-section-h3textstyle2{
+.fourth-section-h3textstyle2 {
 	color: black;
 	text-decoration: underline;
 	text-decoration-color: white;
@@ -497,6 +496,21 @@ overflow-x: hidden !important;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-tabs > li > a {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-tabs > li > a:hover {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-tabs > li > a.current{
+	color: black;
+	background-color: #ec971f;
 }
 
 .carousel-paddint-top {
