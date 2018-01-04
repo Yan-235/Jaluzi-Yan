@@ -504,8 +504,24 @@ body {
 }
 
 .nav-tabs > li > a:hover {
+	color: white;
+	background-color: #ec971f;
+}
+
+.nav-tabs > li:hover > a:hover {
+	color: white;
+	background-color: #ec971f;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus {
+    background-color:#e85c00;
+		color: white;
+}
+
+.nav-tabs > li > a:checked{
 	color: black;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: #e85c00;
 }
 
 .carousel-paddint-top {
