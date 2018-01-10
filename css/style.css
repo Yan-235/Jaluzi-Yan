@@ -71,6 +71,12 @@ body {
 }
 
 @media (max-width: 767px) {
+
+	.adaptation-padding-bottom{
+		margin-top: 15px;
+		padding-bottom: 20px;
+	}
+
 	.adaptation-size-of-dropdown-menu:hover {
 		padding-bottom: 160px;
 	}
@@ -347,6 +353,7 @@ body {
 }
 
 .media-btn-calling-for-measure {
+	content: "abc";
 	margin-top: 50px;
 	position: relative;
 	text-align: center;
@@ -500,28 +507,44 @@ body {
 
 .nav-tabs > li > a {
 	color: black;
+	border-color: #e54c0b;
+	border-width: 2px;
+	border-radius: 8px;
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav-tabs > li > a:hover {
 	color: white;
 	background-color: #ec971f;
+	border-color: #e54c0b;
+	border-width: 2px;
+	border-radius: 8px;
+	border-radius: 8px;
 }
 
 .nav-tabs > li:hover > a:hover {
 	color: white;
 	background-color: #ec971f;
+	border-color: #e54c0b;
+	border-width: 2px;
+	border-radius: 8px;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus {
-    background-color:#e85c00;
-		color: white;
+	background-color: #e85c00;
+	color: white;
+	border-color: #e54c0b;
+	border-width: 2px;
+	border-radius: 8px;
 }
 
-.nav-tabs > li > a:checked{
-	color: black;
-	background-color: #e85c00;
+.nav-tabs > li.active > a:hover {
+	background-color: #ec971f;
+	color: white;
+	border-color: #e54c0b;
+	border-width: 2px;
+	border-radius: 8px;
 }
 
 .carousel-paddint-top {
@@ -576,9 +599,6 @@ body {
 .ninth-section-backgroundstyle {
 	background-size: cover;
 	height: auto;
-	padding-bottom: 50px;
-	background-color: rgba(0, 0, 0, 0.6);
-	background-blend-mode: darken;
 }
 
 .bottom-style {
