@@ -72,9 +72,9 @@ body {
 
 @media (max-width: 767px) {
 
-	.adaptation-padding-bottom{
-		margin-top: 15px;
-		padding-bottom: 20px;
+	.adaptation-padding-bottom {
+		margin-top: 20px;
+		padding-bottom: 25px;
 	}
 
 	.adaptation-size-of-dropdown-menu:hover {
@@ -374,11 +374,46 @@ body {
 	border-radius: 0.25em;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.065);
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
 
+.white-color {
+	color: white;
 }
 
 .media-btn-calling-for-measure:hover {
 	background: #ff8105;
+}
+
+.phone-for-btn-calling-for-measure {
+	font: 600 14px / 18px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	color: white;
+}
+
+.phone-for-btn-calling-for-measure:hover {
+	font: 600 14px / 18px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.descr {
+	border-width: 3px;
+	border-color: white;
+	border-radius: 10px;
+	display: none;
+	margin-left: 10px;
+	margin-top: 7px;
+	background: #e54c0b;
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.media-btn-calling-for-measure:hover .descr {
+	display: block;
+	position: absolute;
+	top: 20px;
+	z-index: 9999;
+	width: 200px;
 }
 
 .media-btn-send-message {
@@ -628,7 +663,7 @@ body {
 
 .buy-roller-blinds-p3textstyle {
 	padding-top: 10px;
-	padding-bottom: 40vh;
+	padding-bottom: 30vh;
 	margin: 0;
 	color: #e54c0b;
 	font-size: 22px;
@@ -799,6 +834,7 @@ body {
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Facebook:hover:after {
@@ -821,6 +857,8 @@ body {
 }
 
 .contacts-media-btn-Twitter {
+	background: url("../img/twitter-black.jpg");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	margin-left: 68px;
@@ -830,10 +868,11 @@ body {
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Twitter:hover:after {
-	content: attr(data-title);
+	content: "Twitter";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 3;
@@ -845,11 +884,15 @@ body {
 }
 
 .contacts-media-btn-Twitter:hover {
+	background: url("../img/twitter-orange.jpg");
+	background-size: cover;
 	background-color: #ec971f;
-	border: 1px solid #333;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Instagram {
+	background: url("../img/instagram-black.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	margin-left: 96px;
@@ -859,10 +902,11 @@ body {
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Instagram:hover:after {
-	content: attr(data-title);
+	content: "Instagram";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 3;
@@ -874,11 +918,15 @@ body {
 }
 
 .contacts-media-btn-Instagram:hover {
+	background: url("../img/instagram-orange.png");
+	background-size: cover;
 	background-color: #ec971f;
-	border: 1px solid #333;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Foursquare {
+	background: url("../img/foursquare-black.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	margin-left: 124px;
@@ -888,10 +936,11 @@ body {
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Foursquare:hover:after {
-	content: attr(data-title);
+	content: "Foursquare";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 3;
@@ -903,11 +952,15 @@ body {
 }
 
 .contacts-media-btn-Foursquare:hover {
+	background: url("../img/foursquare-orange.png");
+	background-size: cover;
 	background-color: #ec971f;
-	border: 1px solid #333;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Dribbble {
+	background: url("../img/dribbble-black.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	margin-left: 152px;
@@ -917,10 +970,11 @@ body {
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Dribbble:hover:after {
-	content: attr(data-title);
+	content: "Dribbble";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 3;
@@ -932,11 +986,15 @@ body {
 }
 
 .contacts-media-btn-Dribbble:hover {
+	background: url("../img/dribbble-orange.png");
+	background-size: cover;
 	background-color: #ec971f;
-	border: 1px solid #333;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Printerest {
+	background: url("../img/printerest-black.png");
+	background-size: cover;
 	position: absolute;
 	z-index: 2;
 	margin-left: 180px;
@@ -946,10 +1004,11 @@ body {
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
+	border: 1px solid white;
 }
 
 .contacts-media-btn-Printerest:hover:after {
-	content: attr(data-title);
+	content: "Printerest";
 	position: absolute;
 	margin-top: 12px;
 	z-index: 3;
@@ -961,8 +1020,10 @@ body {
 }
 
 .contacts-media-btn-Printerest:hover {
+	background: url("../img/printerest-orange.png");
+	background-size: cover;
 	background-color: #ec971f;
-	border: 1px solid #333;
+	border: 1px solid white;
 }
 
 .media-btn-connect-with-us {
