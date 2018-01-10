@@ -1131,3 +1131,12 @@ body {
 	/*left:-9px;*/
 	top: 0;
 }
+
+.horizontal-htextstyle {
+	color: #ffcc00;
+}
+
+.horizontal-ptextstyle {
+	font-size: 18px;
+	color: #ff9b7c;
+}
