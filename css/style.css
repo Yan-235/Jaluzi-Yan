@@ -1206,3 +1206,60 @@ body {
 	color: #ff9b7c;
 	text-align: justify;
 }
+
+.load {
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: url(../img/ajax-loader.gif);
+	width: 43px;
+	height: 11px;
+	text-indent: -9999em;
+}
+
+.padding-top-50px {
+	padding-top: 50px;
+}
+
+.carousel-style-portfolio-with-tissue-samples-horizontal {
+	width: auto !important;
+	height: 36vw !important;
+}
+
+.portfolio-with-tissue-samples-imgs-position {
+	margin-top: 4vh;
+	min-height: 24vw;
+	width: 100%;
+	max-width: 100%;
+}
+
+.portfolio-with-tissue-samples-imgs-position:hover {
+	border-color: white;
+	background-color: rgba(49, 176, 213, 0.8);
+	background-blend-mode: darken;
+}
+
+.portfolio-with-tissue-samples-imgs-position:hover:after{
+	content: attr(data-title);
+	color: white;
+	font-family: Verdana;
+	font-size: 16px;
+
+}
+
+/*td {
+	position: relative;
+}
+
+.clone {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.clone > img {
+	width: 100px;
+	height: 100px;
+}*/
+
