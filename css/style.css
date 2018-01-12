@@ -142,6 +142,9 @@ body {
 	background: rgba(0, 0, 0, 0.5);
 }
 
+.no-navbar-a {
+}
+
 .navbar-inverse a {
 	font: normal 600 16px / 20px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
 	color: white;
@@ -160,7 +163,7 @@ body {
 	transition: width .3s ease-in-out;
 }
 
-.navbar-inverse a:hover:after {
+.navbar-inverse a:not([class="no-navbar-a"]):hover:after {
 	width: 100%;
 }
 
@@ -170,7 +173,7 @@ body {
 	position: absolute;
 	z-index: 2;
 	display: inline-block;
-	margin-top: -10px;
+	margin-top: -6px;
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
@@ -203,7 +206,7 @@ body {
 	z-index: 2;
 	display: inline-block;
 	margin-left: 28px;
-	margin-top: -10px;
+	margin-top: -8px;
 	width: 24px;
 	height: 24px;
 	cursor: pointer;
@@ -1228,25 +1231,209 @@ body {
 }
 
 .portfolio-with-tissue-samples-imgs-position {
+	position: relative;
 	margin-top: 4vh;
 	min-height: 24vw;
 	width: 100%;
 	max-width: 100%;
 }
 
-.portfolio-with-tissue-samples-imgs-position:hover {
-	border-color: white;
-	background-color: rgba(49, 176, 213, 0.8);
+.portfolio-with-tissue-samples-imgs-position:before {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	box-shadow: 0 0 10px #A0A9B1 inset;
+	content: attr(data-title);
+	font-family: Tahoma;
+	font-size: 20px;
+	height: 48px;
+	line-height: 48px;
+	opacity: 0;
+	padding: 0 10px;
+	position: absolute;
+	z-index: 2;
+	align-content: center;
+	top: 10px;
+	left: 2vh;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.portfolio-with-tissue-samples-imgs-position:hover:before {
+	left: 2vh;
+	opacity: 1;
+	top: 10px;
+}
+
+@media (max-height: 1080px) {
+
+	.portfolio-with-tissue-samples-imgs-position {
+		position: relative;
+		margin-top: 4vh;
+		min-height: 20vw;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.portfolio-with-tissue-samples-imgs-position:before {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 10px;
+		box-shadow: 0 0 10px #A0A9B1 inset;
+		content: attr(data-title);
+		font-family: Tahoma;
+		font-size: 16px;
+		height: 48px;
+		line-height: 48px;
+		opacity: 0;
+		padding: 0 10px;
+		position: absolute;
+		z-index: 2;
+		align-content: center;
+		top: 10px;
+		left: 2vh;
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+
+	.portfolio-with-tissue-samples-imgs-position:hover:before {
+		left: 2vh;
+		opacity: 1;
+		top: 10px;
+	}
+}
+
+@media (max-width: 1060px) {
+
+	.portfolio-with-tissue-samples-imgs-position:before {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 10px;
+		box-shadow: 0 0 10px #A0A9B1 inset;
+		content: attr(data-title);
+		font-family: Tahoma;
+		font-size: 18px;
+		height: 48px;
+		line-height: 48px;
+		opacity: 0;
+		padding: 0 10px;
+		position: absolute;
+		z-index: 2;
+		align-content: center;
+		top: 10px;
+		left: 2vh;
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+
+	.portfolio-with-tissue-samples-imgs-position:hover:before {
+		left: 2vh;
+		opacity: 1;
+		top: 10px;
+	}
+}
+
+@media (max-width: 412px) {
+	.portfolio-with-tissue-samples-imgs-position {
+		position: relative;
+		margin-top: 4vh;
+		min-height: 36vw;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 960px) {
+
+	.portfolio-with-tissue-samples-imgs-position {
+		position: relative;
+		margin-top: 4vh;
+		min-height: 24vw;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.portfolio-with-tissue-samples-imgs-position:before {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 10px;
+		box-shadow: 0 0 10px #A0A9B1 inset;
+		content: attr(data-title);
+		font-family: Tahoma;
+		font-size: 14px;
+		height: 48px;
+		line-height: 48px;
+		opacity: 0;
+		padding: 0 10px;
+		position: absolute;
+		z-index: 2;
+		align-content: center;
+		top: 10px;
+		left: 2vh;
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+
+	.portfolio-with-tissue-samples-imgs-position:hover:before {
+		left: 2vh;
+		opacity: 1;
+		top: 10px;
+	}
+}
+
+@media (max-width: 375px) {
+
+	.portfolio-with-tissue-samples-imgs-position {
+		position: relative;
+		margin-top: 4vh;
+		min-height: 36vw;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.portfolio-with-tissue-samples-imgs-position:before {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 10px;
+		box-shadow: 0 0 10px #A0A9B1 inset;
+		content: attr(data-title);
+		font-family: Tahoma;
+		color: black;
+		font-size: 8px;
+		height: 48px;
+		line-height: 48px;
+		opacity: 0;
+		padding: 0 10px;
+		position: absolute;
+		z-index: 2;
+		align-content: center;
+		/*top: 10px;*/
+
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+
+}
+
+/*.portfolio-with-tissue-samples-imgs-position:hover {
+	border-color: white;*/
+/*background-color: rgba(49, 176, 213, 0.8);*/
+/*	background-color: rgba(0,0,0,0.7);
 	background-blend-mode: darken;
 }
 
 .portfolio-with-tissue-samples-imgs-position:hover:after{
 	content: attr(data-title);
-	color: white;
+	color: #e54c0b;
 	font-family: Verdana;
 	font-size: 16px;
 
-}
+}*/
 
 /*td {
 	position: relative;
