@@ -1420,6 +1420,138 @@ body {
 
 }
 
+.tissue-samples-ptextstyle{
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #e54c0b;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+@media (max-width: 1366px) {
+	.tissue-samples-ptextstyle{
+		padding-left: 20px;
+		padding-top: 20px;
+		color: #e54c0b;
+		font-family: Verdana;
+		font-size: 2vw;
+	}
+}
+
+@media (max-width: 412px) {
+	.tissue-samples-ptextstyle {
+		padding-left: 20px;
+		padding-top: 20px;
+		color: #e54c0b;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+}
+
+.window-position {
+	position: relative;
+	min-height: 80vw;
+	width: 100%;
+	max-width: 100%;
+}
+
+
+@media  (min-height: 1024px){
+	.window-position {
+		position: relative;
+		min-height: 90vw;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.overlay {
+		background: #000;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		opacity: .5;
+	}
+	.visible {
+		background: #fff;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+
+		overflow: hidden;
+		z-index: 2000;
+		width: 80vw;
+		min-height: 600px;
+		padding: 0px;
+		margin-left: -40vw;
+	}
+
+
+}
+
+@media (max-width: 600px){
+	.window-position {
+		position: relative;
+		min-height: 90vw;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.overlay {
+		background: #000;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		opacity: .5;
+	}
+	.visible {
+		background: #fff;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-top: -20%;
+		overflow: hidden;
+		z-index: 2000;
+		width: 80vw;
+		min-height: 300px;
+		padding: 0px;
+		margin-left: -40vw;
+	}
+
+
+}
+
+.overlay {
+	background: #000;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1000;
+	opacity: .5;
+}
+.visible {
+	background: #fff;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -20%;
+	overflow: hidden;
+	z-index: 2000;
+	width: 80vw;
+	height: 40vw;
+	padding: 0px;
+	margin-left: -40vw;
+}
+
+
+
 /*.portfolio-with-tissue-samples-imgs-position:hover {
 	border-color: white;*/
 /*background-color: rgba(49, 176, 213, 0.8);*/
