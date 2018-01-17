@@ -345,7 +345,8 @@ body {
 
 .fourth-section-imgs-position {
 	margin-top: 80px;
-	min-height: 18vw;
+	min-height: 21vw;
+	max-height: 21vw;
 	width: 100%;
 	max-width: 100%;
 }
@@ -823,19 +824,7 @@ body {
 	padding-bottom: 0;
 }
 
-.contacts-header-textstyle {
-	text-align: center;
-	color: #551400;
-	font-size: 6vh;
-	font-weight: bold;
-	padding-top: 70px;
-}
 
-.contacts-h5textstyle {
-	padding-left: 40px;
-	color: gray;
-	padding-bottom: 10px;
-}
 
 .contacts-first-bakground {
 	padding-bottom: 110px;
@@ -850,45 +839,545 @@ body {
 	background-blend-mode: darken;
 }
 
+@media (max-width: 414px) {
+	.contacts-media-btn-Facebook {
+			background: url("../img/facebook-black.png");
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+			margin-left: 2vw!important;
+			display: inline-block;
+			width: 8vw!important;
+			height: 8vw!important;
+			cursor: pointer;
+			border-radius: 50% !important;
+			background-color: #2f201b;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Facebook:hover:after {
+			content: "Facebook";
+			position: absolute;
+			margin-top: 3vw!important;
+			z-index: 3;
+			background: white;
+			font-family: Arial, sans-serif;
+			font-size: 3vw!important;
+			padding: 5px 10px 5px;
+
+		}
+
+		.contacts-media-btn-Facebook:hover {
+			background-color: #ec971f;
+			background: url("../img/facebook-orange.png");
+			background-size: cover;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Twitter {
+			background: url("../img/twitter-black.jpg");
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+			margin-left: 11vw!important;
+			display: inline-block;
+			width: 8vw!important;
+			height: 8vw!important;
+			cursor: pointer;
+			border-radius: 50% !important;
+			background-color: #2f201b;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Twitter:hover:after {
+			content: "Twitter";
+			position: absolute;
+			margin-top: 3vw!important;
+			z-index: 3;
+			background: white;
+			font-family: Arial, sans-serif;
+			font-size: 3vw!important;
+			padding: 5px 10px 5px;
+
+		}
+
+		.contacts-media-btn-Twitter:hover {
+			background: url("../img/twitter-orange.jpg");
+			background-size: cover;
+			background-color: #ec971f;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Instagram {
+			background: url("../img/instagram-black.png");
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+			margin-left: 20vw!important;
+			display: inline-block;
+			width: 8vw!important;
+			height: 8vw!important;
+			cursor: pointer;
+			border-radius: 50% !important;
+			background-color: #2f201b;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Instagram:hover:after {
+			content: "Instagram";
+			position: absolute;
+			margin-top: 1vw;
+			z-index: 3;
+			background: white;
+			font-family: Arial, sans-serif;
+			font-size: 1vw;
+			padding: 5px 10px 5px;
+
+		}
+
+		.contacts-media-btn-Instagram:hover {
+			background: url("../img/instagram-orange.png");
+			background-size: cover;
+			background-color: #ec971f;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Foursquare {
+			background: url("../img/foursquare-black.png");
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+			margin-left: 29vw!important;
+			display: inline-block;
+			width: 8vw!important;
+			height: 8vw!important;
+			cursor: pointer;
+			border-radius: 50% !important;
+			background-color: #2f201b;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Foursquare:hover:after {
+			content: "Foursquare";
+			position: absolute;
+			margin-top: 3vw!important;
+			z-index: 3;
+			background: white;
+			font-family: Arial, sans-serif;
+			font-size: 3vw!important;
+			padding: 5px 10px 5px;
+
+		}
+
+		.contacts-media-btn-Foursquare:hover {
+			background: url("../img/foursquare-orange.png");
+			background-size: cover;
+			background-color: #ec971f;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Dribbble {
+			background: url("../img/dribbble-black.png");
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+			margin-left: 38vw!important;
+			display: inline-block;
+			width: 8vw!important;
+			height: 8vw!important;
+			cursor: pointer;
+			border-radius: 50% !important;
+			background-color: #2f201b;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Dribbble:hover:after {
+			content: "Dribbble";
+			position: absolute;
+			margin-top: 3vw!important;
+			z-index: 3;
+			background: white;
+			font-family: Arial, sans-serif;
+			font-size: 3vw!important;
+			padding: 5px 10px 5px;
+
+		}
+
+		.contacts-media-btn-Dribbble:hover {
+			background: url("../img/dribbble-orange.png");
+			background-size: cover;
+			background-color: #ec971f;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Printerest {
+			background: url("../img/printerest-black.png");
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+			margin-left: 47vw!important;
+			display: inline-block;
+			width: 8vw!important;
+			height: 8vw!important;
+			cursor: pointer;
+			border-radius: 50% !important;
+			background-color: #2f201b;
+			border: 1px solid white;
+		}
+
+		.contacts-media-btn-Printerest:hover:after {
+			content: "Printerest";
+			position: absolute;
+			margin-top: 3vw!important;
+			z-index: 3;
+			background: white;
+			font-family: Arial, sans-serif;
+			font-size: 3vw!important;
+			padding: 5px 10px 5px;
+		}
+
+		.contacts-media-btn-Printerest:hover {
+			background: url("../img/printerest-orange.png");
+			background-size: cover;
+			background-color: #ec971f;
+			border: 1px solid white;
+		}
+
+
+	.contacts-ptextstyle-grey {
+		padding-left: 2vw;
+		font-size: 4vw!important;
+		color: gray;
+		padding-bottom: 10px;
+	}
+
+
+	.contacts-header-textstyle {
+		text-align: center;
+		color: #551400;
+		font-size: 6vw!important;
+		font-weight: bold;
+		padding-top: 7vw!important;
+	}
+
+
+	.contacts-header-ptextstyle {
+		padding-top: 7vw!important;
+		color: #e54c0b;
+		font-size: 5vw !important;
+		text-decoration: none;
+		text-decoration-color: #e54c0b;
+	}
+
+	.contacts-ptextstyle {
+		padding-top: 1vw!important;
+		color: #ff8d49;
+		font-size: 3vw !important;
+		text-decoration: none;
+	}
+
+	.contacts-phonestyle {
+		color: #e85c00;
+		font-size: 3vw !important;
+		text-decoration: underline
+	}
+
+	.contacts-phonestyle:hover {
+		color: #e54c0b;
+		font-size: 3vw !important;
+		text-decoration: none;
+	}
+}
+
+.contacts-ptextstyle-grey {
+	padding-left: 2vw;
+	font-size: 3vw;
+	color: gray;
+	padding-bottom: 10px;
+}
+
+.contacts-header-textstyle {
+	text-align: center;
+	color: #551400;
+	font-size: 4vw;
+	font-weight: bold;
+	padding-top: 7vw;
+}
+
 .contacts-header-ptextstyle {
-	padding-top: 20px;
-	padding-left: 20px;
+	padding-top: 2vw;
 	color: #e54c0b;
-	font-size: 22px;
+	font-size: 2.5vw;
 	text-decoration: none;
 	text-decoration-color: #e54c0b;
 }
 
 .contacts-ptextstyle {
-	padding-top: 20px;
-	padding-left: 40px;
+	padding-top: 2vw;
 	color: #ff8d49;
-	font-size: 12px;
+	font-size: 2vw;
 	text-decoration: none;
 }
 
 .contacts-phonestyle {
 	color: #e85c00;
-	font-size: 12px;
+	font-size: 2vw;
 	text-decoration: underline
 }
 
 .contacts-phonestyle:hover {
 	color: #e54c0b;
-	font-size: 12px;
+	font-size: 2vw;
 	text-decoration: none;
 }
 
-.contacts-phonestyle a .contacts-phonestyle a:visited {
-	color: #e85c00;
-	font-size: 12px;
-	text-decoration: none;
-}
+@media (min-width: 1200px) {
 
-.contacts-phonestyle a .contacts-phonestyle a:active {
-	color: #e85c00;
-	font-size: 12px;
-	text-decoration: none;
+	.contacts-media-btn-Facebook {
+		background: url("../img/facebook-black.png");
+		background-size: cover;
+		position: absolute;
+		z-index: 2;
+		margin-left: 2vw!important;
+		display: inline-block;
+		width: 2vw!important;
+		height: 2vw!important;
+		cursor: pointer;
+		border-radius: 50% !important;
+		background-color: #2f201b;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Facebook:hover:after {
+		content: "Facebook";
+		position: absolute;
+		margin-top: 1vw;
+		z-index: 3;
+		background: white;
+		font-family: Arial, sans-serif;
+		font-size: 1vw;
+		padding: 5px 10px 5px;
+
+	}
+
+	.contacts-media-btn-Facebook:hover {
+		background-color: #ec971f;
+		background: url("../img/facebook-orange.png");
+		background-size: cover;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Twitter {
+		background: url("../img/twitter-black.jpg");
+		background-size: cover;
+		position: absolute;
+		z-index: 2;
+		margin-left: 4.5vw!important;
+		display: inline-block;
+		width: 2vw!important;
+		height: 2vw!important;
+		cursor: pointer;
+		border-radius: 50% !important;
+		background-color: #2f201b;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Twitter:hover:after {
+		content: "Twitter";
+		position: absolute;
+		margin-top: 1vw;
+		z-index: 3;
+		background: white;
+		font-family: Arial, sans-serif;
+		font-size: 1vw;
+		padding: 5px 10px 5px;
+
+	}
+
+	.contacts-media-btn-Twitter:hover {
+		background: url("../img/twitter-orange.jpg");
+		background-size: cover;
+		background-color: #ec971f;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Instagram {
+		background: url("../img/instagram-black.png");
+		background-size: cover;
+		position: absolute;
+		z-index: 2;
+		margin-left: 7vw!important;
+		display: inline-block;
+		width: 2vw!important;
+		height: 2vw!important;
+		cursor: pointer;
+		border-radius: 50% !important;
+		background-color: #2f201b;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Instagram:hover:after {
+		content: "Instagram";
+		position: absolute;
+		margin-top: 1vw;
+		z-index: 3;
+		background: white;
+		font-family: Arial, sans-serif;
+		font-size: 1vw;
+		padding: 5px 10px 5px;
+
+	}
+
+	.contacts-media-btn-Instagram:hover {
+		background: url("../img/instagram-orange.png");
+		background-size: cover;
+		background-color: #ec971f;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Foursquare {
+		background: url("../img/foursquare-black.png");
+		background-size: cover;
+		position: absolute;
+		z-index: 2;
+		margin-left: 9.5vw!important;
+		display: inline-block;
+		width: 2vw!important;
+		height: 2vw!important;
+		cursor: pointer;
+		border-radius: 50% !important;
+		background-color: #2f201b;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Foursquare:hover:after {
+		content: "Foursquare";
+		position: absolute;
+		margin-top: 1vw;
+		z-index: 3;
+		background: white;
+		font-family: Arial, sans-serif;
+		font-size: 1vw;
+		padding: 5px 10px 5px;
+
+	}
+
+	.contacts-media-btn-Foursquare:hover {
+		background: url("../img/foursquare-orange.png");
+		background-size: cover;
+		background-color: #ec971f;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Dribbble {
+		background: url("../img/dribbble-black.png");
+		background-size: cover;
+		position: absolute;
+		z-index: 2;
+		margin-left: 12vw!important;
+		display: inline-block;
+		width: 2vw!important;
+		height: 2vw!important;
+		cursor: pointer;
+		border-radius: 50% !important;
+		background-color: #2f201b;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Dribbble:hover:after {
+		content: "Dribbble";
+		position: absolute;
+		margin-top: 1vw;
+		z-index: 3;
+		background: white;
+		font-family: Arial, sans-serif;
+		font-size: 1vw;
+		padding: 5px 10px 5px;
+
+	}
+
+	.contacts-media-btn-Dribbble:hover {
+		background: url("../img/dribbble-orange.png");
+		background-size: cover;
+		background-color: #ec971f;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Printerest {
+		background: url("../img/printerest-black.png");
+		background-size: cover;
+		position: absolute;
+		z-index: 2;
+		margin-left: 14.5vw!important;
+		display: inline-block;
+		width: 2vw!important;
+		height: 2vw!important;
+		cursor: pointer;
+		border-radius: 50% !important;
+		background-color: #2f201b;
+		border: 1px solid white;
+	}
+
+	.contacts-media-btn-Printerest:hover:after {
+		content: "Printerest";
+		position: absolute;
+		margin-top: 1vw;
+		z-index: 3;
+		background: white;
+		font-family: Arial, sans-serif;
+		font-size: 1vw;
+		padding: 5px 10px 5px;
+	}
+
+	.contacts-media-btn-Printerest:hover {
+		background: url("../img/printerest-orange.png");
+		background-size: cover;
+		background-color: #ec971f;
+		border: 1px solid white;
+	}
+
+
+	.contacts-ptextstyle-grey {
+		padding-left: 1px;
+		font-size: 1vw!important;
+		color: gray;
+		padding-bottom: 10px;
+	}
+
+	.contacts-header-textstyle {
+		text-align: center;
+		color: #551400;
+		font-size: 3.5vw;
+		font-weight: bold;
+		padding-top: 7vw!important;
+	}
+
+	.contacts-header-ptextstyle {
+		padding-top: 7vw!important;
+		color: #e54c0b;
+		font-size: 2vw;
+		text-decoration: none;
+		text-decoration-color: #e54c0b;
+	}
+
+	.contacts-ptextstyle {
+		padding-top: 2vw!important;
+		color: #ff8d49;
+		font-size: 1vw;
+		text-decoration: none;
+	}
+
+	.contacts-phonestyle {
+		color: #e85c00;
+		font-size: 1vw;
+		text-decoration: underline
+	}
+
+	.contacts-phonestyle:hover {
+		color: #e54c0b;
+		font-size: 1vw;
+		text-decoration: none;
+	}
 }
 
 .contacts-media-btn-Facebook {
@@ -896,10 +1385,10 @@ body {
 	background-size: cover;
 	position: absolute;
 	z-index: 2;
-	margin-left: 40px;
+	margin-left: 2vw;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 4vw;
+	height: 4vw;
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
@@ -909,11 +1398,11 @@ body {
 .contacts-media-btn-Facebook:hover:after {
 	content: "Facebook";
 	position: absolute;
-	margin-top: 12px;
+	margin-top: 1vw;
 	z-index: 3;
 	background: white;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 1vw;
 	padding: 5px 10px 5px;
 
 }
@@ -930,10 +1419,10 @@ body {
 	background-size: cover;
 	position: absolute;
 	z-index: 2;
-	margin-left: 68px;
+	margin-left: 7vw;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 4vw;
+	height: 4vw;
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
@@ -943,11 +1432,11 @@ body {
 .contacts-media-btn-Twitter:hover:after {
 	content: "Twitter";
 	position: absolute;
-	margin-top: 12px;
+	margin-top: 1vw;
 	z-index: 3;
 	background: white;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 1vw;
 	padding: 5px 10px 5px;
 
 }
@@ -964,10 +1453,10 @@ body {
 	background-size: cover;
 	position: absolute;
 	z-index: 2;
-	margin-left: 96px;
+	margin-left: 12vw;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 4vw;
+	height: 4vw;
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
@@ -977,11 +1466,11 @@ body {
 .contacts-media-btn-Instagram:hover:after {
 	content: "Instagram";
 	position: absolute;
-	margin-top: 12px;
+	margin-top: 1vw;
 	z-index: 3;
 	background: white;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 1vw;
 	padding: 5px 10px 5px;
 
 }
@@ -998,10 +1487,10 @@ body {
 	background-size: cover;
 	position: absolute;
 	z-index: 2;
-	margin-left: 124px;
+	margin-left: 17vw;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 4vw;
+	height: 4vw;
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
@@ -1011,11 +1500,11 @@ body {
 .contacts-media-btn-Foursquare:hover:after {
 	content: "Foursquare";
 	position: absolute;
-	margin-top: 12px;
+	margin-top: 1vw;
 	z-index: 3;
 	background: white;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 1vw;
 	padding: 5px 10px 5px;
 
 }
@@ -1032,10 +1521,10 @@ body {
 	background-size: cover;
 	position: absolute;
 	z-index: 2;
-	margin-left: 152px;
+	margin-left: 22vw;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 4vw;
+	height: 4vw;
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
@@ -1045,11 +1534,11 @@ body {
 .contacts-media-btn-Dribbble:hover:after {
 	content: "Dribbble";
 	position: absolute;
-	margin-top: 12px;
+	margin-top: 1vw;
 	z-index: 3;
 	background: white;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 1vw;
 	padding: 5px 10px 5px;
 
 }
@@ -1066,10 +1555,10 @@ body {
 	background-size: cover;
 	position: absolute;
 	z-index: 2;
-	margin-left: 180px;
+	margin-left: 27vw;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 4vw;
+	height: 4vw;
 	cursor: pointer;
 	border-radius: 50% !important;
 	background-color: #2f201b;
@@ -1079,13 +1568,12 @@ body {
 .contacts-media-btn-Printerest:hover:after {
 	content: "Printerest";
 	position: absolute;
-	margin-top: 12px;
+	margin-top: 1vw;
 	z-index: 3;
 	background: white;
 	font-family: Arial, sans-serif;
-	font-size: 11px;
+	font-size: 1vw;
 	padding: 5px 10px 5px;
-
 }
 
 .contacts-media-btn-Printerest:hover {
@@ -1420,16 +1908,16 @@ body {
 
 }
 
-.tissue-samples-ptextstyle{
+.tissue-samples-ptextstyle {
 	padding-left: 20px;
 	padding-top: 20px;
 	color: #e54c0b;
 	font-family: Verdana;
-	font-size: 12px;
+	font-size: 2vw;
 }
 
 @media (max-width: 1366px) {
-	.tissue-samples-ptextstyle{
+	.tissue-samples-ptextstyle {
 		padding-left: 20px;
 		padding-top: 20px;
 		color: #e54c0b;
@@ -1455,8 +1943,7 @@ body {
 	max-width: 100%;
 }
 
-
-@media  (min-height: 1024px){
+@media (min-height: 1024px) {
 	.window-position {
 		position: relative;
 		min-height: 90vw;
@@ -1474,6 +1961,7 @@ body {
 		z-index: 1000;
 		opacity: .5;
 	}
+
 	.visible {
 		background: #fff;
 		position: fixed;
@@ -1488,10 +1976,9 @@ body {
 		margin-left: -40vw;
 	}
 
-
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
 	.window-position {
 		position: relative;
 		min-height: 90vw;
@@ -1509,6 +1996,7 @@ body {
 		z-index: 1000;
 		opacity: .5;
 	}
+
 	.visible {
 		background: #fff;
 		position: fixed;
@@ -1523,7 +2011,6 @@ body {
 		margin-left: -40vw;
 	}
 
-
 }
 
 .overlay {
@@ -1536,6 +2023,7 @@ body {
 	z-index: 1000;
 	opacity: .5;
 }
+
 .visible {
 	background: #fff;
 	position: fixed;
@@ -1549,8 +2037,6 @@ body {
 	padding: 0px;
 	margin-left: -40vw;
 }
-
-
 
 /*.portfolio-with-tissue-samples-imgs-position:hover {
 	border-color: white;*/
