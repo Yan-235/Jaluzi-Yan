@@ -26,6 +26,20 @@ body {
 	border-radius: 0;
 }
 
+@media(max-width: 414px){
+	.phone {
+		font: 600 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif!important;
+		color: white;
+	}
+
+	.phone:hover {
+		font: 600 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif!important;
+		color: white;
+		text-decoration: none;
+	}
+
+}
+
 .phone {
 	font: 600 24px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
 	color: white;
@@ -351,12 +365,28 @@ body {
 	max-width: 100%;
 }
 
+@media(max-width: 736px){
+	.work-section-imgs-position {
+		margin-top: 20px;
+		min-height: 40vw!important;
+		max-height: 75vw!important;
+		width: 100%!important;
+		max-width: 100%!important;
+	}
+}
+
 .work-section-imgs-position {
 	margin-top: 20px;
 	min-height: 24vw;
-	width: 100%;
+	max-height: 24vw;
+	width: 24vw;
 	max-width: 100%;
 }
+
+.btn-center{
+	text-align: center!important;
+}
+
 
 .fourth-section-h3textstyle {
 	color: black;
@@ -453,6 +483,8 @@ body {
 .media-btn-calling-for-measure:hover {
 	background: #ff8105;
 }
+
+
 
 .phone-for-btn-calling-for-measure {
 	font: 600 14px / 18px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
@@ -732,20 +764,44 @@ body {
 }
 
 .buy-roller-blinds-p3textstyle {
-	padding-top: 10px;
+	padding-top: 40px;
 	padding-bottom: 30vh;
 	margin: 0;
 	color: #e54c0b;
-	font-size: 22px;
+	font-size: 2.5vw;
 	text-decoration: none;
 	text-decoration-color: #e54c0b;
 }
 
+@media(max-width: 414px){
+	.buy-roller-blinds-p3textstyle {
+		padding-top: 40px;
+		padding-bottom: 30vh;
+		margin: 0;
+		color: #e54c0b;
+		font-size: 4vw;
+		text-decoration: none;
+		text-decoration-color: #e54c0b;
+	}
+
+	.buy-roller-blinds-h1textstyle {
+		padding-top: 50px!important;
+		padding-bottom: 80px;
+		color: #ff5d00;
+		font-size: 9vw!important;
+		line-height: 44px;
+		font-family: "Arial";
+		font-weight: bold;
+	!important;
+	}
+
+}
+
 .buy-roller-blinds-h1textstyle {
-	padding-top: 100px;
-	padding-bottom: 80px;
+	padding-top: 5vw;
+	padding-bottom: 4vw;
 	color: #ff5d00;
-	font-size: 48px;
+	font-size: 4vw;
 	line-height: 44px;
 	font-family: "Arial";
 	font-weight: bold;
@@ -1689,7 +1745,22 @@ body {
 }
 
 .horizontal-htextstyle {
+	font-size: 20px;
 	color: #ffcc00;
+	text-align: justify;
+}
+
+@media(min-width: 1024px){
+	.horizontal-htextstyle {
+		color: #ffcc00;
+		font-size: 3vw!important;
+	}
+
+	.horizontal-ptextstyle {
+		font-size: 2.5vw!important;
+		color: #ff9b7c;
+		text-align: justify;
+	}
 }
 
 .horizontal-ptextstyle {
